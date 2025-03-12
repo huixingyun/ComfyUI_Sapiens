@@ -2,7 +2,7 @@
 name = "comfyui_sapiens"
 description = "You can call Using Sapiens to get seg，normal，pose，depth，mask."
 version = "1.0.0"
-license = "LICENSE"
+license = { file = "LICENSE" }
 dependencies = ["#torch", "#torchvision", "#opencv-python", "#cap_from_youtube", "#imread_from_url", "ultralytics", "#huggingface_hub"]
 
 [project.urls]
